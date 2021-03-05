@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Framework on Sammy Ageil</title>
-    <link>https://sammyageil.com/categories/framework/</link>
+    <link>https://sammyageil.com/tags/framework/</link>
     <description>Recent content in Framework on Sammy Ageil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Feb 2021 09:22:17 -0500</lastBuildDate><atom:link href="https://sammyageil.com/categories/framework/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 09:22:17 -0500</lastBuildDate><atom:link href="https://sammyageil.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Announcement</title>
       <link>https://sammyageil.com/post/announcement/</link>

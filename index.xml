@@ -23,7 +23,7 @@
       
       <guid>https://sammyageil.com/post/announcement/</guid>
       <description>This post is just a test to verify the functional components of the new blog framework before migrating the old posts
-1	const name = &amp;#39;Jane Doe&amp;#39;; 2	console.log(name); 1void string ToProperName(this string input) 2{ 3 CultureInfo culture = Thread.CurrentThread.CurrentCulture; 4 TextInfo textInfo = culture.TextInfo; 5 return textInfo.ToTitleCase(txt); 6} </description>
+1 2function toProper(str) { 3 return str.replace( 4 /(\w*\W*|\w*)\s*/g, 5 function(txt) { 6 return(txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()) 7 } 8 ); 9} 10const properName = toProper(&amp;#34;jane doe&amp;#34;); 1 2string ToProperName(this string input) 3{ 4 CultureInfo culture = Thread.CurrentThread.CurrentCulture; 5 TextInfo textInfo = culture.TextInfo; 6 return textInfo.ToTitleCase(txt); 7} 8var message = &amp;#34;hello C#&amp;#34;; 9var properString = message.</description>
     </item>
     
   </channel>
