@@ -91,6 +91,27 @@
 <span class="ln">7</span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">strings</span><span class="p">.</span><span class="nf">Title</span><span class="p">(</span><span class="s">&#34;hello Go&#34;</span><span class="p">))</span>
 <span class="ln">8</span>	<span class="p">}</span>
 <span class="ln">9</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="ln"> 1</span><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="nc">StringHelper</span> <span class="o">{</span>
+<span class="ln"> 2</span>
+<span class="ln"> 3</span>    <span class="kd">public</span> <span class="kd">static</span> <span class="n">String</span> <span class="nf">toTitleCase</span><span class="o">(</span><span class="n">String</span> <span class="n">text</span><span class="o">)</span> <span class="o">{</span>
+<span class="ln"> 4</span>
+<span class="ln"> 5</span>        <span class="n">StringBuilder</span> <span class="n">titleCase</span> <span class="o">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="o">(</span><span class="n">text</span><span class="o">.</span><span class="na">length</span><span class="o">());</span>
+<span class="ln"> 6</span>        <span class="kt">boolean</span> <span class="n">nextTitleCase</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+<span class="ln"> 7</span>
+<span class="ln"> 8</span>        <span class="k">for</span> <span class="o">(</span><span class="kt">char</span> <span class="n">c</span> <span class="o">:</span> <span class="n">text</span><span class="o">.</span><span class="na">toLowerCase</span><span class="o">().</span><span class="na">toCharArray</span><span class="o">())</span> <span class="o">{</span>
+<span class="ln"> 9</span>            <span class="k">if</span> <span class="o">(!</span><span class="n">Character</span><span class="o">.</span><span class="na">isLetterOrDigit</span><span class="o">(</span><span class="n">c</span><span class="o">))</span> <span class="o">{</span>
+<span class="ln">10</span>                <span class="n">nextTitleCase</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+<span class="ln">11</span>            <span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">nextTitleCase</span><span class="o">)</span> <span class="o">{</span>
+<span class="ln">12</span>                <span class="n">c</span> <span class="o">=</span> <span class="n">Character</span><span class="o">.</span><span class="na">toTitleCase</span><span class="o">(</span><span class="n">c</span><span class="o">);</span>
+<span class="ln">13</span>                <span class="n">nextTitleCase</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+<span class="ln">14</span>            <span class="o">}</span>
+<span class="ln">15</span>            <span class="n">titleCase</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">c</span><span class="o">);</span>
+<span class="ln">16</span>        <span class="o">}</span>
+<span class="ln">17</span>
+<span class="ln">18</span>        <span class="k">return</span> <span class="n">titleCase</span><span class="o">.</span><span class="na">toString</span><span class="o">();</span>
+<span class="ln">19</span>    <span class="o">}</span>
+<span class="ln">20</span>
+<span class="ln">21</span><span class="o">}</span>
 </code></pre></div>
   </section>
 </article>
