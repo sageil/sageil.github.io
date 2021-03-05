@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sammy Ageil</title>
+    <link>https://sammyageil.com/</link>
+    <description>Recent content on Sammy Ageil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Feb 2021 17:38:44 -0500</lastBuildDate><atom:link href="https://sammyageil.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page</title>
+      <link>https://sammyageil.com/page/page/</link>
+      <pubDate>Sun, 28 Feb 2021 17:38:44 -0500</pubDate>
+      
+      <guid>https://sammyageil.com/page/page/</guid>
+      <description>###Hello there###</description>
+    </item>
+    
+    <item>
+      <title>Announcement</title>
+      <link>https://sammyageil.com/post/announcement/</link>
+      <pubDate>Tue, 23 Feb 2021 09:22:17 -0500</pubDate>
+      
+      <guid>https://sammyageil.com/post/announcement/</guid>
+      <description>This post is just a test to verify the functional components of the new blog framework before migrating the old posts
+1	const name = &amp;#39;Jane Doe&amp;#39;; 2	console.log(name); 1void string ToProperName(this string input) 2{ 3 CultureInfo culture = Thread.CurrentThread.CurrentCulture; 4 TextInfo textInfo = culture.TextInfo; 5 return textInfo.ToTitleCase(txt); 6} </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sammy Ageil</title>
+    <link>https://sammyageil.com/tags/</link>
+    <description>Recent content in Tags on Sammy Ageil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Feb 2021 09:22:17 -0500</lastBuildDate><atom:link href="https://sammyageil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Framework test</title>
+      <link>https://sammyageil.com/tags/framework-test/</link>
+      <pubDate>Tue, 23 Feb 2021 09:22:17 -0500</pubDate>
+      
+      <guid>https://sammyageil.com/tags/framework-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://sammyageil.com/tags/hugo/</link>
+      <pubDate>Tue, 23 Feb 2021 09:22:17 -0500</pubDate>
+      
+      <guid>https://sammyageil.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

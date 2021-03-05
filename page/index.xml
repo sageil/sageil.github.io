@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Sammy Ageil</title>
+    <link>https://sammyageil.com/page/</link>
+    <description>Recent content in Pages on Sammy Ageil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Feb 2021 17:38:44 -0500</lastBuildDate><atom:link href="https://sammyageil.com/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page</title>
+      <link>https://sammyageil.com/page/page/</link>
+      <pubDate>Sun, 28 Feb 2021 17:38:44 -0500</pubDate>
+      
+      <guid>https://sammyageil.com/page/page/</guid>
+      <description>###Hello there###</description>
+    </item>
+    
+  </channel>
+</rss>
