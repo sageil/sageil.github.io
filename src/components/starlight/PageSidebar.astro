@@ -1,11 +1,6 @@
 ---
 const { starlightRoute } = Astro.locals;
-const path = Astro.url.pathname;
 const headings = starlightRoute.headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
-const isWriting = path.startsWith('/writing/');
-const section = isWriting ? 'Writing' : starlightRoute.entry.data.title;
-const type = isWriting && path !== '/writing/' ? 'Essay' : 'Field note';
-const focus = isWriting ? 'AI-assisted delivery' : 'Engineering leadership';
 ---
 
 <div>
@@ -20,24 +15,6 @@ const focus = isWriting ? 'AI-assisted delivery' : 'Engineering leadership';
       ))
     }
   </nav>
-</div>
-
-<div class="rail-facts">
-  <p class="rail-label">About</p>
-  <dl>
-    <div>
-      <dt>Section</dt>
-      <dd>{section}</dd>
-    </div>
-    <div>
-      <dt>Type</dt>
-      <dd>{type}</dd>
-    </div>
-    <div>
-      <dt>Focus</dt>
-      <dd>{focus}</dd>
-    </div>
-  </dl>
 </div>
 
 <script>
