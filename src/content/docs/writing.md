@@ -3,7 +3,7 @@ title: Writing
 description: Notes on engineering leadership, platform systems, and AI as a multiplier.
 ---
 
-Notes & thoughts about engineering, leadership, platform systems, and trustworthy AI-assisted delivery.
+Thoughts on engineering, leadership, platform systems, and building better software with AI.
 
 ## AI Is Not Extra Headcount
 
