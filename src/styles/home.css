@@ -152,7 +152,7 @@ flex-direction:column;
 padding:44px 24px 30px 8px;
 display:flex
 }
-.nav-label,.rail-label,.eyebrow,.responsibility-label {
+.rail-label,.responsibility-label {
 color:var(--faint);
 letter-spacing:.16em;
 text-transform:uppercase;
@@ -162,7 +162,7 @@ font-weight:700
 }
 .section-nav nav {
 gap:5px;
-margin-top:18px;
+margin-top:0;
 display:grid
 }
 .section-nav nav a {
@@ -466,9 +466,6 @@ display:block;
 position:sticky;
 top:62px;
 overflow-x:auto
-}
-.section-nav>.nav-label {
-display:none
 }
 .section-nav nav {
 width:max-content;
