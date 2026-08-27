@@ -37,7 +37,7 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        { label: 'Experience', link: '/experience/' },
+        { label: 'About', link: '/' },
         { label: 'Projects', link: '/projects/' },
         {
           label: 'Writing',
