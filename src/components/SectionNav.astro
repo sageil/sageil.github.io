@@ -1,0 +1,33 @@
+---
+import { Icon } from '@astrojs/starlight/components';
+
+const navItems = [
+  { label: 'Experience', href: '/experience/', icon: 'window' },
+  { label: 'Projects', href: '/projects/', icon: 'rocket' },
+  { label: 'Writing', href: '/writing/', icon: 'pencil' },
+] as const;
+
+const currentPath = Astro.url.pathname;
+
+function isActive(href: string): boolean {
+  return currentPath.startsWith(href);
+}
+---
+
+<aside class="section-nav" aria-label="Primary navigation">
+  <p class="nav-label">Field notes</p>
+  <nav>
+    {
+      navItems.map((item) => {
+        const active = isActive(item.href);
+
+        return (
+          <a href={item.href} class:list={{ active }} aria-current={active ? 'page' : undefined}>
+            <Icon name={item.icon} />
+            <span>{item.label}</span>
+          </a>
+        );
+      })
+    }
+  </nav>
+</aside>
