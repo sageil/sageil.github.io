@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { projects } from '../data/projects';
+---
+
+<Base title="Projects" description="Open-source projects by Sammy Ageil for research, software delivery, and AI development.">
+  <header class="page-head">
+    <div class="kicker">Projects</div>
+    <h1>Things I’m making</h1>
+    <p>Staying hands-on means continuing to learn, build, and improve. These projects are how I keep my technical judgment current and stay better connected with my teams.</p>
+  </header>
+
+  <section class="sec project-list">
+    {
+      projects.map((project) => (
+        <article>
+          <h2>{project.name}</h2>
+          {project.body.map((paragraph) => <p>{paragraph}</p>)}
+          <a href={project.href}>{project.linkLabel ?? 'View on GitHub'} →</a>
+        </article>
+      ))
+    }
+  </section>
+</Base>

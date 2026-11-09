@@ -1,5 +1,6 @@
 ---
 title: It’s Hard to Learn a Tool You Think Might Replace You
+order: 3
 description: How understanding context and tools helped my teams experiment with AI and trust their own judgment around it.
 ---
 

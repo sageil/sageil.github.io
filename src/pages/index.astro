@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import EssayList from '../components/EssayList.astro';
+import { getEssays } from '../lib/writing';
+import { projects } from '../data/projects';
+
+const essays = await getEssays();
+---
+
+<Base description="Sammy Ageil writes about engineering leadership, platform modernization, and building software with AI.">
+  <section class="hero">
+    <div class="kicker">Notes on building, and leading</div>
+    <h1>Sammy Ageil</h1>
+    <p>I've spent twenty years writing software and leading the teams who write it. Now I'm learning what AI changes, and what it doesn't.</p>
+    <div class="stem" aria-hidden="true"></div>
+  </section>
+
+  <section id="writing" class="sec">
+    <h2>Writing</h2>
+    <EssayList essays={essays} />
+  </section>
+
+  <section id="projects" class="sec">
+    <h2>Projects</h2>
+    <div class="projects">
+      {
+        projects.map((project) => (
+          <a href={project.href}>
+            <span class="t">{project.name}</span>
+            <span class="d">{project.summary}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section id="about" class="sec about">
+    <h2>About</h2>
+    <p>I started my career building software, then moved into architecture and engineering leadership. Over more than twenty years the scale of the work changed, from designing systems with teams of ten to leading organizations of more than eighty people across onshore and offshore groups.</p>
+    <p>Much of that work was modernizing critical platforms without disrupting the businesses that depend on them: meet today’s needs, improve the underlying system, and leave less technical debt behind.</p>
+    <p>Today I apply that experience to production AI and agentic systems. I still lead like a developer: close enough to the work to ask useful questions, and to help teams decide when to move quickly, when to protect reliability, and when technical ambition creates real business value.</p>
+
+    <ol class="roles">
+      <li><span class="when">2021 – 2026</span><span class="what">Director, Platform Engineering · Director, Technology Engineering</span><span class="where">MCAP</span></li>
+      <li><span class="when">2015 – 2021</span><span class="what">Senior Manager, Applications Development</span><span class="where">FCT</span></li>
+      <li><span class="when">2014 – 2015</span><span class="what">Senior Software Development Manager</span><span class="where">MED e-care Healthcare Solutions</span></li>
+      <li><span class="when">2010 – 2014</span><span class="what">Software Development Manager</span><span class="where">Wireless Ronin Technologies</span></li>
+      <li><span class="when">2007 – 2010</span><span class="what">Solution Architect</span><span class="where">Hewlett Packard Enterprise</span></li>
+    </ol>
+  </section>
+</Base>

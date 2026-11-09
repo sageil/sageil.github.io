@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import EssayList from '../../components/EssayList.astro';
+import { getEssays } from '../../lib/writing';
+
+const essays = await getEssays();
+---
+
+<Base title="Writing" description="Notes on engineering leadership, platform systems, and AI as a multiplier.">
+  <header class="page-head">
+    <div class="kicker">Writing</div>
+    <h1>Notes</h1>
+    <p>Thoughts on engineering, leadership, platform systems, and building better software with AI.</p>
+  </header>
+  <section class="sec">
+    <EssayList essays={essays} />
+  </section>
+</Base>
