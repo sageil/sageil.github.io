@@ -1,7 +1,14 @@
 import { defineCollection } from 'astro:content';
-import { docsLoader } from '@astrojs/starlight/loaders';
-import { docsSchema } from '@astrojs/starlight/schema';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
-export const collections = {
-  docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
-};
+const writing = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/writing' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    order: z.number(),
+  }),
+});
+
+export const collections = { writing };

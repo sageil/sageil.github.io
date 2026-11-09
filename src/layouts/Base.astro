@@ -1,0 +1,57 @@
+---
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/cormorant-garamond/400-italic.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/500-italic.css';
+import '@fontsource-variable/karla';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} · Sammy Ageil` : 'Sammy Ageil';
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const path = Astro.url.pathname;
+const current = (href: string) => (path.startsWith(href) ? 'page' : undefined);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content={path.startsWith('/writing/') && path !== '/writing/' ? 'article' : 'website'} />
+  </head>
+  <body>
+    <header class="top">
+      <nav aria-label="Primary">
+        <a href="/writing/" aria-current={current('/writing/')}>Writing</a>
+        <a href="/" class="mono" aria-label="Sammy Ageil, home" aria-current={path === '/' ? 'page' : undefined}>SA</a>
+        <a href="/projects/" aria-current={current('/projects/')}>Projects</a>
+        <a href="/#about">About</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="foot">
+      <p>Write to me</p>
+      <div>
+        <a href="https://www.linkedin.com/in/sammy-ageil/">LinkedIn</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/sageil">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>

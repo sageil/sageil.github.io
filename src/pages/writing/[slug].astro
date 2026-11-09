@@ -1,0 +1,40 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { getEssays, readingMinutes } from '../../lib/writing';
+
+export async function getStaticPaths() {
+  const essays = await getEssays();
+  return essays.map((essay, index) => ({
+    params: { slug: essay.id },
+    props: { essay, next: essays[(index + 1) % essays.length] },
+  }));
+}
+
+const { essay, next } = Astro.props;
+const { Content } = await render(essay);
+const minutes = readingMinutes(essay.body ?? '');
+---
+
+<Base title={essay.data.title} description={essay.data.description}>
+  <article class="post">
+    <header>
+      <a class="back" href="/writing/">← Writing</a>
+      <h1>{essay.data.title}</h1>
+      <p class="dek">{essay.data.description}</p>
+      <p class="meta">{minutes} min read</p>
+    </header>
+    <div class="rule" aria-hidden="true"></div>
+    <div class="prose">
+      <Content />
+    </div>
+    {
+      next.id !== essay.id && (
+        <a class="next" href={`/writing/${next.id}/`}>
+          <span>Next</span>
+          {next.data.title}
+        </a>
+      )
+    }
+  </article>
+</Base>

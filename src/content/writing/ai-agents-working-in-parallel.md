@@ -1,5 +1,6 @@
 ---
 title: The AI agents were working in parallel. I wasn’t.
+order: 2
 description: A Saga-style approach to coordinating Codex agents across multiple repositories without making the developer track every session.
 ---
 
