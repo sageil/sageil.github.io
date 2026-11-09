@@ -8,9 +8,19 @@ AI tools don't charge by the message. They charge by the token, and a token is a
 
 The input side is bigger than most people expect. It isn't just your latest prompt. The model also reads the entire conversation up to that point, every file you've attached, and whatever instructions the app adds behind the scenes. On the output side there's a surprise too. Many models now think before they answer, and you pay for that thinking even though you never see it. Output is also the pricier half, usually somewhere between three and eight times the cost of input, depending on the model.
 
+<figure class="article-visual article-visual-wide">
+  <img src="/images/writing/tokens-per-message.svg" alt="One message is billed as input and output. Input includes the app instructions, the whole conversation so far, attached files and your prompt, which is the smallest part. Output includes hidden thinking and the answer, usually billed at three to eight times the input rate." width="1800" height="600" loading="lazy" decoding="async">
+  <figcaption>Your prompt is usually the smallest thing the model reads.</figcaption>
+</figure>
+
 Then there's the choice of model. The top models cost many times more per token than the lighter ones, and for a lot of everyday work you'd struggle to tell the answers apart.
 
 The cost most people never notice is the re-reading. The model goes back over the whole conversation every time you send a message. Most tools cache the parts it has already seen and bill them at a steep discount, but the cache only lasts a few minutes. Open a 40-message thread from last week and the model reads all 40 messages again at full price, before you've even started typing.
+
+<figure class="article-visual article-visual-wide">
+  <img src="/images/writing/reopening-old-chat.svg" alt="In an active chat, the 39 earlier messages are cached and billed at a discount. In a thread from last week, the cache has expired and all 39 are read again at full price before the new message." width="1800" height="620" loading="lazy" decoding="async">
+  <figcaption>The cache lasts minutes. An old thread is billed as if every message were new.</figcaption>
+</figure>
 
 ## Why the Bills Keep Growing
 

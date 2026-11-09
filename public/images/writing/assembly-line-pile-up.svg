@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 620" width="1800" height="620">
+  <rect width="1800" height="620" fill="#faf7f2"/>
+
+  <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">Faster at one station. Stuck at the next.</text>
+
+  <g transform="translate(0 -190)" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <!-- conveyor -->
+    <line x1="60" y1="600" x2="1740" y2="600" stroke="#8a857c" stroke-width="3"/>
+    <g fill="#8a857c">
+      <circle cx="120" cy="616" r="9"/><circle cx="320" cy="616" r="9"/><circle cx="520" cy="616" r="9"/>
+      <circle cx="720" cy="616" r="9"/><circle cx="920" cy="616" r="9"/><circle cx="1120" cy="616" r="9"/>
+      <circle cx="1320" cy="616" r="9"/><circle cx="1520" cy="616" r="9"/><circle cx="1720" cy="616" r="9"/>
+    </g>
+
+
+    <!-- station: requirements -->
+    <rect x="80" y="470" width="240" height="130" rx="8" fill="none" stroke="#8a857c" stroke-width="3"/>
+    <text x="200" y="545" font-size="30" text-anchor="middle" fill="#1a1a1a">Requirements</text>
+
+    <!-- item in transit -->
+    <rect x="390" y="566" width="34" height="34" rx="3" fill="none" stroke="#8a857c" stroke-width="3"/>
+
+    <!-- station: AI coding -->
+    <rect x="500" y="470" width="240" height="130" rx="8" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+    <text x="620" y="530" font-size="30" text-anchor="middle" fill="#1a1a1a">Coding</text>
+    <text x="620" y="568" font-size="24" text-anchor="middle" fill="#4a6b3a">with AI</text>
+    <g stroke="#4a6b3a" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M760 505 l18 15 -18 15"/><path d="M784 505 l18 15 -18 15"/><path d="M808 505 l18 15 -18 15"/>
+    </g>
+
+    <!-- pile of work in front of review -->
+    <g fill="#fbe9e1" stroke="#c4512a" stroke-width="3">
+      <rect x="850" y="566" width="34" height="34" rx="3"/><rect x="888" y="566" width="34" height="34" rx="3"/>
+      <rect x="926" y="566" width="34" height="34" rx="3"/><rect x="964" y="566" width="34" height="34" rx="3"/>
+      <rect x="1002" y="566" width="34" height="34" rx="3"/>
+      <rect x="869" y="528" width="34" height="34" rx="3"/><rect x="907" y="528" width="34" height="34" rx="3"/>
+      <rect x="945" y="528" width="34" height="34" rx="3"/><rect x="983" y="528" width="34" height="34" rx="3"/>
+      <rect x="888" y="490" width="34" height="34" rx="3"/><rect x="926" y="490" width="34" height="34" rx="3"/>
+      <rect x="964" y="490" width="34" height="34" rx="3"/>
+      <rect x="907" y="452" width="34" height="34" rx="3"/><rect x="945" y="452" width="34" height="34" rx="3"/>
+      <rect x="926" y="414" width="34" height="34" rx="3"/>
+    </g>
+
+    <!-- station: review & QA -->
+    <rect x="1060" y="470" width="240" height="130" rx="8" fill="none" stroke="#c4512a" stroke-width="3"/>
+    <text x="1180" y="530" font-size="30" text-anchor="middle" fill="#1a1a1a">Review</text>
+    <text x="1180" y="568" font-size="24" text-anchor="middle" fill="#c4512a">&amp; QA</text>
+
+    <!-- empty gap -->
+    <line x1="1320" y1="583" x2="1460" y2="583" stroke="#8a857c" stroke-width="3" stroke-dasharray="8 10"/>
+
+    <!-- station: release -->
+    <rect x="1480" y="470" width="240" height="130" rx="8" fill="none" stroke="#8a857c" stroke-width="3"/>
+    <text x="1600" y="545" font-size="30" text-anchor="middle" fill="#1a1a1a">Release</text>
+
+    <!-- captions -->
+    <text x="620" y="700" font-size="25" text-anchor="middle" fill="#4a6b3a">Code in hours, not days</text>
+    <text x="1060" y="700" font-size="25" text-anchor="middle" fill="#c4512a">Reviews, tests and product</text>
+    <text x="1060" y="734" font-size="25" text-anchor="middle" fill="#c4512a">questions queue up</text>
+    <text x="1600" y="700" font-size="25" text-anchor="middle" fill="#8a857c">Delivery barely moves</text>
+  </g>
+</svg>

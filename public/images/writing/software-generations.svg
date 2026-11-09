@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 670" width="1800" height="670">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="670" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">Each generation got cheaper by writing less code.</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<rect x="80" y="196" width="22" height="22" rx="3" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="114" y="215" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Components and open source</text>
+<rect x="480" y="196" width="22" height="22" rx="3" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="514" y="215" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Custom code</text>
+<rect x="80" y="240.0" width="300" height="300.0" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="230" y="400.0" font-size="28" fill="#c4512a" text-anchor="middle" font-weight="700" letter-spacing="0">100%</text>
+<text x="230" y="588" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Conventional</text>
+<text x="230" y="622" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">1960s–1970s</text>
+<rect x="500" y="240" width="300" height="90.0" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="650" y="295.0" font-size="28" fill="#4a6b3a" text-anchor="middle" font-weight="700" letter-spacing="0">30%</text>
+<rect x="500" y="330.0" width="300" height="210.0" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="650" y="445.0" font-size="28" fill="#c4512a" text-anchor="middle" font-weight="700" letter-spacing="0">70%</text>
+<text x="650" y="588" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Transition</text>
+<text x="650" y="622" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">1980s–1990s</text>
+<rect x="920" y="240" width="300" height="210.0" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="1070" y="355.0" font-size="28" fill="#4a6b3a" text-anchor="middle" font-weight="700" letter-spacing="0">70%</text>
+<rect x="920" y="450.0" width="300" height="90.0" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1070" y="505.0" font-size="28" fill="#c4512a" text-anchor="middle" font-weight="700" letter-spacing="0">30%</text>
+<text x="1070" y="588" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Modern</text>
+<text x="1070" y="622" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">2000s–2010s</text>
+<rect x="1340" y="240" width="300" height="300" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1490" y="365" font-size="26" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Custom code is</text>
+<text x="1490" y="401" font-size="26" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">cheap to write.</text>
+<text x="1490" y="437" font-size="26" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Is it cheap to own?</text>
+<text x="1490" y="588" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">AI</text>
+<text x="1490" y="622" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">2020s–</text>
+</g>
+</svg>

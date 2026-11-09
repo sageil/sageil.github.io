@@ -492,6 +492,23 @@ a:focus-visible {
   margin: 24px auto 0;
 }
 
+.prose .equation {
+  margin: 40px 0;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+  font-style: italic;
+  font-size: clamp(20px, 2.6vw, 26px);
+  line-height: 1.4;
+  color: var(--fg);
+}
+
+.prose .equation sup {
+  font-size: 0.6em;
+  color: var(--accent);
+}
+
 .prose code {
   font-size: 0.8em;
   padding: 2px 6px;

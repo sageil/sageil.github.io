@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 600" width="1800" height="600">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="600" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">Where AI changes the cost equation.</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<text x="80" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="44" fill="#1a1a1a">Effort =</text>
+<rect x="290" y="260" width="240" height="90" rx="8" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="410.0" y="315.5" font-size="30" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Personnel</text>
+<text x="560" y="318" font-size="40" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">×</text>
+<text x="410" y="410" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">Smaller teams,</text>
+<text x="410" y="442" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">more output</text>
+<rect x="590" y="260" width="240" height="90" rx="8" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="710.0" y="315.5" font-size="30" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Environment</text>
+<text x="860" y="318" font-size="40" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">×</text>
+<text x="710" y="410" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">Checks get cheaper</text>
+<text x="710" y="442" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">and faster</text>
+<rect x="890" y="260" width="240" height="90" rx="8" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1010.0" y="315.5" font-size="30" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Quality</text>
+<text x="1160" y="318" font-size="40" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">×</text>
+<text x="1010" y="410" font-size="24" fill="#c4512a" text-anchor="middle" font-weight="400" letter-spacing="0">Plausible code</text>
+<text x="1010" y="442" font-size="24" fill="#c4512a" text-anchor="middle" font-weight="400" letter-spacing="0">that is wrong</text>
+<rect x="1190" y="260" width="240" height="90" rx="8" fill="none" stroke="#8a857c" stroke-width="3"/>
+<text x="1310.0" y="315.5" font-size="30" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Size</text>
+<text x="1310" y="410" font-size="24" fill="#6b665e" text-anchor="middle" font-weight="400" letter-spacing="0">Grows, because code</text>
+<text x="1310" y="442" font-size="24" fill="#6b665e" text-anchor="middle" font-weight="400" letter-spacing="0">is cheap to write</text>
+<rect x="1450" y="180" width="240" height="70" rx="8" fill="#faf7f2" stroke="#1a1a1a" stroke-width="3"/>
+<text x="1570.0" y="224.8" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Process</text>
+<text x="1570" y="410" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="700" letter-spacing="0">The exponent:</text>
+<text x="1570" y="442" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="700" letter-spacing="0">where it’s won or lost</text>
+<text x="80" y="540" font-size="24" fill="#8a857c" text-anchor="start" font-weight="400" letter-spacing="0">Walker Royce’s cost model. AI helps two terms, adds risk to one, and pushes size up. The exponent decides the rest.</text>
+</g>
+</svg>

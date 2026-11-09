@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 600" width="1800" height="600">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="600" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">AI amplifies whatever goes in.</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<text x="80" y="230" font-size="24" fill="#4a6b3a" text-anchor="start" font-weight="700" letter-spacing="1.5">STRONG FOUNDATION</text>
+<rect x="80" y="260" width="200" height="80" rx="6" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="180" y="309" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Your baseline</text>
+<line x1="284" y1="300" x2="360" y2="300" stroke="#4a6b3a" stroke-width="3" marker-end="url(#a-g)"/>
+<circle cx="420" cy="300" r="52" fill="#faf7f2" stroke="#1a1a1a" stroke-width="3"/>
+<text x="420" y="310" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="700" letter-spacing="0">AI</text>
+<line x1="474" y1="300" x2="550" y2="300" stroke="#4a6b3a" stroke-width="3" marker-end="url(#a-g)"/>
+<rect x="560" y="260" width="1160" height="80" rx="6" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="590" y="310" font-size="28" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Better work, at a scale you couldn’t reach alone</text>
+<text x="80" y="430" font-size="24" fill="#c4512a" text-anchor="start" font-weight="700" letter-spacing="1.5">WEAK FOUNDATION</text>
+<rect x="80" y="460" width="200" height="80" rx="6" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="180" y="509" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Your baseline</text>
+<line x1="284" y1="500" x2="360" y2="500" stroke="#c4512a" stroke-width="3" marker-end="url(#a-r)"/>
+<circle cx="420" cy="500" r="52" fill="#faf7f2" stroke="#1a1a1a" stroke-width="3"/>
+<text x="420" y="510" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="700" letter-spacing="0">AI</text>
+<line x1="474" y1="500" x2="550" y2="500" stroke="#c4512a" stroke-width="3" marker-end="url(#a-r)"/>
+<rect x="560" y="460" width="1160" height="80" rx="6" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="590" y="510" font-size="28" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Mistakes, at a pace nobody can catch</text>
+</g>
+</svg>

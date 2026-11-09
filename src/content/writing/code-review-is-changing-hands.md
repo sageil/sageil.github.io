@@ -24,6 +24,11 @@ Humans will review less code by hand. Agreed. But someone still has to ask wheth
 
 That isn't the death of review. It's review that finally scales to the amount of code being written.
 
+<figure class="article-visual article-visual-wide">
+  <img src="/images/writing/review-moves.svg" alt="Before, code went straight to a person who read every line and could not keep up. Now, code passes through tests and model review before a person checks intent and shape." width="1800" height="640" loading="lazy" decoding="async">
+  <figcaption>Machines check the lines. People check whether it was the right change.</figcaption>
+</figure>
+
 ## "Good code" was never just for humans
 
 The 80-column jab is fair. Plenty of style rules were about human comfort. But clear structure, sensible names and small, well-separated pieces help models too. A model reading a tangled codebase burns more tokens, fills its context with noise and makes worse edits. Good code turns out to be cheaper code, whoever reads it.

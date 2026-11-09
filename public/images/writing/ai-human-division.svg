@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 720" width="1800" height="720">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="720" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">AI does the volume. People own the judgment.</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<text x="80" y="230" font-size="24" fill="#4a6b3a" text-anchor="start" font-weight="700" letter-spacing="1.5">AI HANDLES</text>
+<text x="1060" y="230" font-size="24" fill="#c4512a" text-anchor="start" font-weight="700" letter-spacing="1.5">PEOPLE KEEP</text>
+<rect x="80" y="280" width="20" height="20" rx="3" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="124" y="300" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Boilerplate</text>
+<rect x="80" y="342" width="20" height="20" rx="3" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="124" y="362" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Test scaffolding</text>
+<rect x="80" y="404" width="20" height="20" rx="3" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="124" y="424" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Migrations</text>
+<rect x="80" y="466" width="20" height="20" rx="3" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="124" y="486" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Log analysis</text>
+<rect x="80" y="528" width="20" height="20" rx="3" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="124" y="548" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">First-draft documentation</text>
+<rect x="1060" y="280" width="20" height="20" rx="3" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1104" y="300" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Architectural direction</text>
+<rect x="1060" y="342" width="20" height="20" rx="3" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1104" y="362" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Edge cases the tests miss</text>
+<rect x="1060" y="404" width="20" height="20" rx="3" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1104" y="424" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Security sign-off</text>
+<rect x="1060" y="466" width="20" height="20" rx="3" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1104" y="486" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Whether the feature should exist</text>
+<line x1="880" y1="200" x2="880" y2="560" stroke="#8a857c" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="880" y1="590" x2="960" y2="590" stroke="#8a857c" stroke-width="3" marker-end="url(#a-k)"/>
+<line x1="880" y1="590" x2="800" y2="590" stroke="#8a857c" stroke-width="3" marker-end="url(#a-k)"/>
+<text x="880" y="640" font-size="25" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">The line moves only where</text>
+<text x="880" y="672" font-size="25" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">a reliable check exists</text>
+</g>
+</svg>

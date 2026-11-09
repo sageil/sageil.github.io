@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 600" width="1800" height="600">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="600" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">What one message actually costs.</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<text x="80" y="260" font-size="24" fill="#4a6b3a" text-anchor="start" font-weight="700" letter-spacing="1.5">INPUT · WHAT THE MODEL READS</text>
+<text x="1250" y="260" font-size="24" fill="#c4512a" text-anchor="start" font-weight="700" letter-spacing="1.5">OUTPUT · WHAT IT WRITES</text>
+<rect x="80" y="290" width="170" height="110" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="165.0" y="450" font-size="25" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Instructions</text>
+<rect x="250" y="290" width="560" height="110" fill="#dfe7d8" stroke="#4a6b3a" stroke-width="3"/>
+<text x="530.0" y="450" font-size="25" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Conversation so far</text>
+<rect x="810" y="290" width="320" height="110" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="970.0" y="450" font-size="25" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Attached files</text>
+<rect x="1130" y="290" width="70" height="110" fill="#dfe7d8" stroke="#4a6b3a" stroke-width="3"/>
+<text x="1165.0" y="450" font-size="25" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Your prompt</text>
+<rect x="1250" y="290" width="240" height="110" fill="#fbe9e1" stroke="#c4512a" stroke-width="3"/>
+<text x="1370.0" y="450" font-size="25" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Hidden thinking</text>
+<rect x="1490" y="290" width="170" height="110" fill="#f6d6c8" stroke="#c4512a" stroke-width="3"/>
+<text x="1575.0" y="450" font-size="25" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Answer</text>
+<text x="80" y="540" font-size="26" fill="#4a6b3a" text-anchor="start" font-weight="700" letter-spacing="0">Billed at the base input rate</text>
+<text x="1250" y="540" font-size="26" fill="#c4512a" text-anchor="start" font-weight="700" letter-spacing="0">Usually 3–8× the input rate</text>
+</g>
+</svg>
