@@ -1,6 +1,6 @@
 ---
 title: AI Changed the Cost of Code, Not the Cost of Software
-order: 8
+date: 2026-08-11
 description: "Fifty years of software economics in one equation, and what AI does to each part of it."
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Code Review Isn't Dying. It's Changing Hands.
-order: 5
+date: 2026-10-13
 description: "When code gets cheap to produce, checking it becomes the expensive part, and the important one."
 ---
 

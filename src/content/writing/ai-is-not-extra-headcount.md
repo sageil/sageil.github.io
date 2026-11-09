@@ -1,6 +1,6 @@
 ---
 title: AI Is Not Extra Headcount
-order: 1
+date: 2026-03-24
 description: AI multiplies the team and delivery system around it, producing gains only when the work, feedback, and judgment support it.
 ---
 

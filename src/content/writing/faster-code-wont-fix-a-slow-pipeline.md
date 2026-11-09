@@ -1,6 +1,6 @@
 ---
 title: Faster Code Won't Fix a Slow Pipeline
-order: 7
+date: 2026-01-20
 description: "AI speeds up one stage of delivery. The teams that benefit are the ones that rebuild the rest around it."
 ---
 

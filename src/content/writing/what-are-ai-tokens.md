@@ -1,6 +1,6 @@
 ---
 title: What Are AI Tokens, and Why Do They Cost So Much?
-order: 4
+date: 2025-11-04
 description: "Where your AI tokens go, why the bills keep growing? Eight habits to cost without degrading models' answers."
 ---
 

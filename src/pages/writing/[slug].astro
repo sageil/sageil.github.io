@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { getEssays, readingMinutes } from '../../lib/writing';
+import { formatDate, getEssays, readingMinutes } from '../../lib/writing';
 
 export async function getStaticPaths() {
   const essays = await getEssays();
@@ -16,13 +16,13 @@ const { Content } = await render(essay);
 const minutes = readingMinutes(essay.body ?? '');
 ---
 
-<Base title={essay.data.title} description={essay.data.description}>
+<Base title={essay.data.title} description={essay.data.description} image={`/og/${essay.id}.png`} published={essay.data.date}>
   <article class="post">
     <header>
       <a class="back" href="/writing/">← Writing</a>
       <h1>{essay.data.title}</h1>
       <p class="dek">{essay.data.description}</p>
-      <p class="meta">{minutes} min read</p>
+      <p class="meta"><time datetime={essay.data.date.toISOString().slice(0, 10)}>{formatDate(essay.data.date)}</time> · {minutes} min read</p>
     </header>
     <div class="rule" aria-hidden="true"></div>
     <div class="prose">

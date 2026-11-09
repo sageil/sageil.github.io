@@ -1,6 +1,6 @@
 ---
 title: AI Multiplies What You Bring
-order: 6
+date: 2026-06-02
 description: "AI scales your skills, judgment and domain knowledge, and it scales your gaps just as fast."
 ---
 
