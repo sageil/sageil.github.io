@@ -310,7 +310,8 @@ a:focus-visible {
   color: var(--soft);
 }
 
-.page-head p a {
+.page-head p a,
+.about p a {
   color: var(--fg);
   text-decoration: underline;
   text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent);
