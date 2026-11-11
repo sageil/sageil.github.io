@@ -27,13 +27,13 @@ In the modern era the ratio flipped. Open source, frameworks, cloud services and
   <figcaption>Every gain came from writing less custom code. AI makes custom code cheap to write again.</figcaption>
 </figure>
 
-Notice what drove each improvement. Not faster typing. Less custom code. The biggest lever on the size term was never writing it in the first place.
+Each improvement came from writing less custom code, not from writing it faster. The biggest lever on the size term was never writing the code in the first place.
 
 ## AI pulls the size lever the other way
 
 AI changes this in an odd direction. It makes custom code nearly free to produce. Need a parser, a client, a migration script? Ask for one. The pressure to reuse, to reach for a library, to keep the system small, quietly weakens.
 
-But the exponent applies to size no matter who wrote the code. A system that grows because generating code is cheap still has to be understood, integrated, tested, secured and maintained. The diseconomy of scale was never about typing. It came from coordination, from every new piece interacting with every old one. AI doesn't remove that. If anything, it lets teams reach the expensive end of the curve faster.
+But the exponent applies to size no matter who wrote the code. A system that grows because generating code is cheap still has to be understood, integrated, tested, secured and maintained. The diseconomy of scale comes from coordination, from every new piece interacting with every old one, and typing had little to do with it. AI doesn't remove that. If anything, it lets teams reach the expensive end of the curve faster.
 
 ## Term by term
 
@@ -72,6 +72,6 @@ Royce listed five ways to improve software economics. All five still hold. AI ju
 
 ## Cheap code, expensive software
 
-Every generation in Royce's model got cheaper by writing less code. AI is the first one that makes writing code itself cheap, and that's genuinely new. But code was never the expensive part. Understanding, integrating and owning it was.
+Every generation in Royce's model got cheaper by writing less code. AI is the first to make writing the code itself cheap, which is new. But writing was never most of the cost. Understanding, integrating and owning the code was, and AI hasn't made any of that much cheaper yet.
 
 Writing the wrong feature faster still wastes money. It just wastes it sooner.

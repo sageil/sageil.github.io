@@ -1,7 +1,7 @@
 ---
 title: What Are AI Tokens, and Why Do They Cost So Much?
 date: 2025-11-04
-description: "Where your AI tokens go, why the bills keep growing? Eight habits to cost without degrading models' answers."
+description: "Where your AI tokens go, why the bills keep growing, and eight habits that cut the cost without making the answers worse."
 ---
 
 AI tools don't charge by the message. They charge by the token, and a token is about three-quarters of a word. A 100-word prompt comes to roughly 130 tokens. Each time you hit send, you pay twice: once for what the model reads (input) and once for what it writes back (output).
@@ -22,13 +22,13 @@ The cost most people never notice is the re-reading. The model goes back over th
   <figcaption>The cache lasts minutes. An old thread is billed as if every message were new.</figcaption>
 </figure>
 
-## Why the Bills Keep Growing
+## Why the bills keep growing
 
-Flat-fee AI is on its way out. For a while subscriptions hid what these models really cost to run, but as people use them more, the big platforms have been shifting to pay-for-what-you-use. ChatGPT Pro is now $200 a month. Claude Max is $100 or $200. GitHub Copilot shifted premium request model.
+Flat-fee AI is on its way out. For a while subscriptions hid what these models really cost to run, but as people use them more, the big platforms have been shifting to pay-for-what-you-use. As I write this, ChatGPT Pro is $200 a month and Claude Max is $100 or $200. GitHub Copilot now meters premium requests and charges for anything over the monthly allowance.
 
 It's worse for companies. Hand a team unlimited access with no way to see who's using what, and a year's budget can be gone in a few months, with nobody quite sure what it paid for. If you use these tools every day, it's worth knowing where your tokens are going.
 
-## Eight Habits That Cut Your Token Bill
+## Eight habits that cut your token bill
 
 None of these will make your answers worse, and they work in whatever tool you happen to use.
 
@@ -64,10 +64,10 @@ Extended thinking, web search and research modes make the model do more work tha
 
 Claude has Projects and ChatGPT has Memory. Put the context you keep repeating in there once, instead of pasting it into every new chat. Look through it every so often, though. Stale information means paying tokens to correct it before the model gets to what you actually asked.
 
-## Keep an Eye on It
+## Keep an eye on it
 
 This isn't something you fix once. Prices move, models change, and the rules around caching and limits change with them. What saved you money six months ago might not today. Glance at your usage dashboard now and then, and adjust your habits when the numbers drift.
 
-## Or Let the Tool Handle It
+## Or let the tool handle it
 
 [KodaCode](https://kodacode.dev) builds these habits in, so you don't have to think about them. It sends the model only what it needs to read. It lets you choose which model does which job, so routine work doesn't run at top-tier prices. And it shows you what you're spending and what you've saved as you work.
