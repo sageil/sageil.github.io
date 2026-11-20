@@ -5,16 +5,14 @@ interface Props {
   essays: CollectionEntry<'writing'>[];
 }
 
-const numerals = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'];
 const { essays } = Astro.props;
 ---
 
 <ol class="essays">
   {
-    essays.map((essay, index) => (
+    essays.map((essay) => (
       <li>
         <a href={`/writing/${essay.id}/`}>
-          <span class="n">{numerals[index] ?? index + 1}.</span>
           <span class="t">{essay.data.title}</span>
           <span class="d">{essay.data.description}</span>
         </a>

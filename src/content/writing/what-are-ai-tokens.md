@@ -6,7 +6,7 @@ description: "Where your AI tokens go, why the bills keep growing, and eight hab
 
 AI tools don't charge by the message. They charge by the token, and a token is about three-quarters of a word. A 100-word prompt comes to roughly 130 tokens. Each time you hit send, you pay twice: once for what the model reads (input) and once for what it writes back (output).
 
-The input side is bigger than most people expect. It isn't just your latest prompt. The model also reads the entire conversation up to that point, every file you've attached, and whatever instructions the app adds behind the scenes. On the output side there's a surprise too. Many models now think before they answer, and you pay for that thinking even though you never see it. Output is also the pricier half, usually somewhere between three and eight times the cost of input, depending on the model.
+The input side is bigger than most people expect. It isn't just your latest prompt. The model also reads the entire conversation up to that point, every file you've attached, and whatever instructions the app adds behind the scenes. On the output side, many models now think before they answer, and you pay for that thinking even though you never see it. Output is also the pricier half, usually somewhere between three and eight times the cost of input, depending on the model.
 
 <figure class="article-visual article-visual-wide">
   <img src="/images/writing/tokens-per-message.svg" alt="One message is billed as input and output. Input includes the app instructions, the whole conversation so far, attached files and your prompt, which is the smallest part. Output includes hidden thinking and the answer, usually billed at three to eight times the input rate." width="1800" height="600" loading="lazy" decoding="async">
@@ -15,7 +15,7 @@ The input side is bigger than most people expect. It isn't just your latest prom
 
 Then there's the choice of model. The top models cost many times more per token than the lighter ones, and for a lot of everyday work you'd struggle to tell the answers apart.
 
-The cost most people never notice is the re-reading. The model goes back over the whole conversation every time you send a message. Most tools cache the parts it has already seen and bill them at a steep discount, but the cache only lasts a few minutes. Open a 40-message thread from last week and the model reads all 40 messages again at full price, before you've even started typing.
+Every message also makes the model go back over the whole conversation. Most tools cache the parts it has already seen and bill them at a steep discount, but the cache only lasts a few minutes. Open a 40-message thread from last week and the model reads every earlier message again at full price, before you've even started typing.
 
 <figure class="article-visual article-visual-wide">
   <img src="/images/writing/reopening-old-chat.svg" alt="In an active chat, the 39 earlier messages are cached and billed at a discount. In a thread from last week, the cache has expired and all 39 are read again at full price before the new message." width="1800" height="620" loading="lazy" decoding="async">
@@ -24,21 +24,21 @@ The cost most people never notice is the re-reading. The model goes back over th
 
 ## Why the bills keep growing
 
-Flat-fee AI is on its way out. For a while subscriptions hid what these models really cost to run, but as people use them more, the big platforms have been shifting to pay-for-what-you-use. As I write this, ChatGPT Pro is $200 a month and Claude Max is $100 or $200. GitHub Copilot now meters premium requests and charges for anything over the monthly allowance.
+Flat fees are getting harder to find. For a while subscriptions hid what these models really cost to run, but as people use them more, the big platforms have been raising prices and metering usage. As I write this, ChatGPT Pro is $200 a month and Claude Max is $100 or $200. GitHub Copilot now meters premium requests and charges for anything over the monthly allowance.
 
 It's worse for companies. Hand a team unlimited access with no way to see who's using what, and a year's budget can be gone in a few months, with nobody quite sure what it paid for. If you use these tools every day, it's worth knowing where your tokens are going.
 
 ## Eight habits that cut your token bill
 
-None of these will make your answers worse, and they work in whatever tool you happen to use.
+None of these should make your answers worse, and they work in whatever tool you happen to use.
 
 ### 1. Use the right model for the job
 
-You wouldn't ask your most senior engineer to rename a variable. Treat models the same way. Quick questions, rewording, simple lookups: the lighter model handles these fine, faster and for a fraction of the price. Keep the expensive model for work that genuinely needs it. Defaulting to the top model for everything is the most expensive habit on this list, and it's also the most common.
+You wouldn't ask your most senior engineer to rename a variable. Treat models the same way. Quick questions, rewording, simple lookups: the lighter model handles these fine, faster and for a fraction of the price. Keep the expensive model for work that needs it. Defaulting to the top model for everything is the most expensive habit on this list, and it's also the most common.
 
 ### 2. Say exactly what you want
 
-"Help me with my marketing strategy" gives the model nothing to aim at, so it covers everything. You read a long, general answer, narrow it down, ask again, then ask again. Compare that with "Write three subject lines for a reactivation email, each under ten words." One message, one answer, done.
+"Help me with my marketing strategy" gives the model nothing to aim at, so it covers everything. You read a long, general answer, narrow it down, ask again, then ask again. Compare that with "Write three subject lines for a reactivation email, each under ten words." That takes one message and gets one answer.
 
 ### 3. Set a length
 
@@ -46,7 +46,7 @@ If you don't say how long, the model usually errs on the long side, and output i
 
 ### 4. Start fresh instead of reopening old chats
 
-Reopening a long, old conversation feels free, but it isn't. The cache expired long ago, so the model reads the whole history again at full price. One user said they used 15% of their session limit just by reopening a thread. A better routine: before you finish for the day, ask for a short summary of where things stand. Tomorrow, paste it into a new chat and carry on.
+Reopening a long, old conversation feels free, but it isn't. The cache expired long ago, so the model reads the whole history again at full price. A better routine: before you finish for the day, ask for a short summary of where things stand. Tomorrow, paste it into a new chat and carry on.
 
 ### 5. Leave the start of the conversation alone
 
@@ -70,4 +70,4 @@ This isn't something you fix once. Prices move, models change, and the rules aro
 
 ## Or let the tool handle it
 
-[KodaCode](https://kodacode.dev) builds these habits in, so you don't have to think about them. It sends the model only what it needs to read. It lets you choose which model does which job, so routine work doesn't run at top-tier prices. And it shows you what you're spending and what you've saved as you work.
+[KodaCode](https://kodacode.dev), the tool I build at LoopsRelay, has these habits built in, so you don't have to think about them. It sends the model only what it needs to read. It lets you choose which model does which job, so routine work doesn't run at top-tier prices. And it shows you what you're spending and what you've saved as you work.

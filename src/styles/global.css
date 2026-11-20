@@ -48,8 +48,7 @@ a:focus-visible {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(10px);
+  background: var(--bg);
 }
 
 .top nav {
@@ -172,19 +171,9 @@ a:focus-visible {
 
 .essays a {
   display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: 4px 16px;
+  gap: 4px;
   padding: 30px 0;
   border-bottom: 1px solid var(--line);
-}
-
-.essays .n {
-  grid-row: span 2;
-  padding-top: 4px;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 22px;
-  color: var(--muted);
 }
 
 .essays .t {
@@ -293,12 +282,16 @@ a:focus-visible {
 }
 
 .page-head h1 {
-  margin: 24px 0 0;
+  margin: 0;
   font-family: var(--serif);
   font-weight: 400;
   font-style: italic;
   font-size: clamp(56px, 9vw, 112px);
   line-height: 0.95;
+}
+
+.page-head .kicker + h1 {
+  margin-top: 24px;
 }
 
 .page-head p {

@@ -1,7 +1,7 @@
 ---
-title: Code Review Isn't Dying. It's Changing Hands.
+title: Code Review Is Changing Hands
 date: 2026-10-13
-description: "When code gets cheap to produce, checking it becomes the expensive part, and the important one."
+description: "A reply to Thorsten Ball. Models now write more code than people can read, and that makes tests, review and good code more important."
 ---
 
 Thorsten Ball recently published [*What I believe about the future of software development*](https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/), predicting the end of code review, unit tests, the terminal, UI, and "good code". It's a fun read and it gets a few big things right. But I think it draws the wrong conclusion from the right observation.
@@ -14,21 +14,21 @@ From there he concludes that code review and unit tests are on their way out. Th
 
 The post calls unit tests training wheels: why keep them if you never fall over? The evidence is 900 lines of Arduino C that compiled cleanly and ran first time. I believe it. I've seen the same. But compiling isn't the same as being right, and running once isn't the same as running correctly next month, after the next change.
 
-Tests aren't there because whoever wrote the code might fall over. They're how we say precisely what the software should do, in a form a machine can check. That matters more when an agent writes the code, not less. An agent with a good test suite can try, fail, fix and try again on its own. Without one, all it can do is tell you, confidently, that it's done.
+Tests aren't there because whoever wrote the code might fall over. They're how we say precisely what the software should do, in a form a machine can check. That matters more when an agent writes the code. An agent with a good test suite can try, fail, fix and try again on its own. Without one, all it can do is tell you, confidently, that it's done.
 
 The post also says, rightly, that most future bugs will be "you asked for the wrong thing" bugs. Tests are one of the best tools we have against exactly that. You can't delete the tests and keep the insight.
 
-## Review moves, it doesn't disappear
+## Where review goes
 
 Humans will review less code by hand. Agreed. But someone or something still has to ask whether the change is correct, whether it's secure, whether it does what was intended. More and more, that something will be a model, with a human checking the intent and the shape of the system rather than the semicolons.
 
-Consider this scenario: an agent refactors the rate lookup in a mortgage application. To cut API calls, it caches the lender's prime rate for 24 hours. It compiles, the quotes look right, the demo goes fine. Then the Bank of Canada moves its rate at 9:45am, prime follows, and for the rest of the day every applicant is quoted yesterday's rate. Nobody reading a 2,000-line diff notices a cache setting. A test that says "a quote uses the rate in effect when the application is submitted" catches it every time. A model reviewer asking "does this change when the rate is read?" might too. The person's job is knowing that rate-change days matter at all.
+Say an agent refactors the rate lookup in a mortgage application. To cut API calls, it caches the lender's prime rate for 24 hours. It compiles, the quotes look right, the demo goes fine. Then the Bank of Canada moves its rate at 9:45am, prime follows, and for the rest of the day every applicant is quoted yesterday's rate. Nobody reading a 2,000-line diff notices a cache setting. A test that says "a quote uses the rate in effect when the application is submitted" catches it every time. A model reviewer asking "does this change when the rate is read?" might too. The person's job is knowing that rate-change days matter at all.
 
-That isn't the death of review. It's review evolving into something that finally scales to the amount of code being written.
+That is still review, and it's the first version of it that scales to the amount of code being written.
 
 <figure class="article-visual article-visual-wide">
   <img src="/images/writing/review-moves.svg" alt="Before, code went straight to a person who read every line and could not keep up. Now, code passes through tests and model review before a person checks intent and shape." width="1800" height="640" loading="lazy" decoding="async">
-  <figcaption>Machines check the lines. People check whether it was the right change.</figcaption>
+  <figcaption>Tests and model review check the lines, so a person can check whether it was the right change.</figcaption>
 </figure>
 
 ## "Good code" was never just for humans
@@ -49,12 +49,12 @@ Where I think he's onto something is the layer underneath. More organizations ar
 
 ## Cheap models aren't a contradiction
 
-The post says some people will be priced out by token costs, then a few paragraphs later asks why anyone would use a cheaper model. Both can't be true. In practice what decides it is the cost of a finished task, not the price per token. A capable model planning the work and a cheaper one doing the routine parts, with the result checked, is already a very good deal.
+The post says some people will be priced out by token costs, then a few paragraphs later asks why anyone would use a cheaper model. They can't both be true. In practice what decides it is the cost of a finished task, not the price per token. A capable model planning the work and a cheaper one doing the routine parts, with the result checked, is already a very good deal.
 
 The cheaper end also keeps getting better. Open-weight models and the fast, low-cost tiers from the big labs are closing in on the closed frontier models, and work that needed a top model a year ago often runs fine on one of them today. Open weights can also run on your own hardware, which makes "priced out" even harder to argue.
 
 ## Where I agree completely
 
-Knowing what to build, and why, matters more than ever. No test or model would have thought to ask about rate-change days; someone who understood mortgages did. That's also why copying another organization's process without the knowledge and skills behind it looks sillier every month: the process travels, the knowledge doesn't.
+Knowing what to build, and why, matters more when code is cheap. No test or model would have thought to ask about rate-change days; someone who understood mortgages did. That's also why copying another organization's process looks sillier every month. You can copy a process in a week, but not the knowledge and skills behind it.
 
 So yes, the craft is changing. When models write most of the code, the answer is to make checking automatic, constant and built into how the work gets done, so the stale rate gets caught by a test on an ordinary Tuesday, not by an applicant on the day the Bank of Canada moves.

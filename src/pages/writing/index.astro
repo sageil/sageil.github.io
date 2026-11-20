@@ -6,11 +6,10 @@ import { getEssays } from '../../lib/writing';
 const essays = await getEssays();
 ---
 
-<Base title="Writing" description="Notes on engineering leadership, platform systems, and AI as a multiplier.">
+<Base title="Writing" description="Sammy Ageil on what happens to delivery, code review, metrics and cost when AI writes more of the code.">
   <header class="page-head">
-    <div class="kicker">Writing</div>
     <h1>Notes</h1>
-    <p>Thoughts on engineering, leadership, platform systems, and building better software with AI.</p>
+    <p>I write about what happens to delivery, code review, metrics and cost when AI writes more of the code.</p>
   </header>
   <section class="sec">
     <EssayList essays={essays} />

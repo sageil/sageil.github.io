@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 680" width="1800" height="680">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="680" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">What sits between a prompt and a code change</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<rect x="80" y="330" width="220" height="100" rx="8" fill="none" stroke="#8a857c" stroke-width="3"/>
+<text x="190.0" y="390.0" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Request</text>
+<line x1="302" y1="380" x2="380" y2="380" stroke="#8a857c" stroke-width="3" marker-end="url(#a-k)"/>
+<rect x="390" y="200" width="800" height="340" rx="8" fill="none" stroke="#4a6b3a" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="420" y="245" font-size="24" fill="#4a6b3a" text-anchor="start" font-weight="700" letter-spacing="1.5">THE HARNESS</text>
+<rect x="420" y="275" width="330" height="100" rx="8" fill="none" stroke="#4a6b3a" stroke-width="3"/>
+<text x="585.0" y="321.0" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Context</text>
+<text x="585.0" y="357.0" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">what the model reads</text>
+<rect x="420" y="405" width="330" height="100" rx="8" fill="none" stroke="#4a6b3a" stroke-width="3"/>
+<text x="585.0" y="451.0" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Tools</text>
+<text x="585.0" y="487.0" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">what the agent can do</text>
+<rect x="870" y="330" width="280" height="100" rx="8" fill="#eef2ea" stroke="#4a6b3a" stroke-width="3"/>
+<text x="1010.0" y="390.0" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Model</text>
+<line x1="752" y1="325" x2="860" y2="365" stroke="#4a6b3a" stroke-width="3" marker-end="url(#a-g)"/>
+<line x1="752" y1="455" x2="860" y2="395" stroke="#4a6b3a" stroke-width="3" marker-end="url(#a-g)"/>
+<line x1="1152" y1="380" x2="1250" y2="380" stroke="#4a6b3a" stroke-width="3" marker-end="url(#a-g)"/>
+<rect x="1260" y="330" width="220" height="100" rx="8" fill="none" stroke="#8a857c" stroke-width="3"/>
+<text x="1370.0" y="390.0" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Code change</text>
+<line x1="1482" y1="380" x2="1530" y2="380" stroke="#8a857c" stroke-width="3" marker-end="url(#a-k)"/>
+<rect x="1540" y="330" width="200" height="100" rx="8" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="1640.0" y="376.0" font-size="28" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">Developer</text>
+<text x="1640.0" y="412.0" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="400" letter-spacing="0">judges it</text>
+<polyline points="1640,432 1640,610 190,610 190,442" fill="none" stroke="#c4512a" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#a-r)"/>
+<text x="915" y="650" font-size="24" fill="#c4512a" text-anchor="middle" font-weight="400" letter-spacing="0">review, change the context or tools, try again</text>
+</g>
+</svg>

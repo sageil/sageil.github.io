@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 620" width="1800" height="620">
   <rect width="1800" height="620" fill="#faf7f2"/>
 
-  <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">Faster at one station. Stuck at the next.</text>
+  <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">Where the work piles up</text>
 
   <g transform="translate(0 -190)" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
     <!-- conveyor -->

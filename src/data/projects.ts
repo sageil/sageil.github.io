@@ -19,7 +19,7 @@ export const projects: Project[] = [
   {
     name: 'RepoChord',
     href: 'https://github.com/sageil/RepoChord',
-    summary: 'Isolated agents per repository, results brought back for review, integration kept human.',
+    summary: 'One agent per repository, with every result coming back to you before anything is integrated.',
     body: [
       'RepoChord grew out of the coordination problem that appears when one change crosses several repositories.',
       'It divides the work among isolated repository agents, brings their results back for review, and keeps integration under human control.',
@@ -29,10 +29,10 @@ export const projects: Project[] = [
     name: 'KodaCode',
     href: 'https://kodacode.dev',
     linkLabel: 'Visit kodacode.dev',
-    summary: 'A new generation of Agentic Orchestration app.',
+    summary: 'Coordinates coding agents on one change, and shows what each change costs in tokens.',
     body: [
-      'A new generation of Agentic Orchestration app.',
-      'AI-powered software engineering platform that turns AI coding agents into a coordinated development team while cutting your tokens bill.',
+      'The first version of KodaCode was a simple CLI I used to introduce my team at MCAP to agentic coding.',
+      'Today it coordinates several coding agents on one change, lets you choose which model does which job, sends each model only what it needs to read, and shows what you are spending as you work.',
     ],
   },
   {

@@ -1,7 +1,7 @@
 ---
 title: AI Is Not Extra Headcount
 date: 2026-03-24
-description: AI multiplies the team and delivery system around it, producing gains only when the work, feedback, and judgment support it.
+description: What the research on AI and productivity measured, and why the gains depend on the team and delivery system around it.
 ---
 
 When I talk to executives about AI, they tend to fall into two camps.
@@ -24,7 +24,7 @@ AI was part of the gain, but it didn’t create the whole gap.
 It multiplied developers and teams that were already working under different conditions.
 
 <figure class="article-visual article-visual-wide">
-  <img src="/images/writing/ai-productivity-by-work.png" alt="Three developer studies show different AI outcomes: 26 percent more completed tasks for code completion, 21 percent less time on a defined enterprise task, and 19 percent more time for experienced developers working in mature open-source repositories." width="1774" height="887" loading="eager" decoding="async">
+  <img src="/images/writing/ai-productivity-by-work.svg" alt="Three developer studies show different AI outcomes: 26 percent more completed tasks for code completion, 21 percent less time on a defined enterprise task, and 19 percent more time for experienced developers working in mature open-source repositories." width="1800" height="640" loading="eager" decoding="async">
   <figcaption>The studies measured different work in different settings. Together, they show why AI cannot be converted into one fixed productivity rate.</figcaption>
 </figure>
 
@@ -104,8 +104,8 @@ AI increased the average quality of the ideas people produced.
 Human-only teams were better at identifying their strongest idea, choosing correctly about 50 percent of the time compared with roughly 37 percent in the AI-assisted conditions.
 
 <figure class="article-visual article-visual-wide">
-  <img src="/images/writing/ai-team-generation-selection.png" alt="A three-stage view of the teamwork experiment: AI assistance raised average idea quality, human-only teams selected their best idea about 50 percent of the time compared with roughly 37 percent in AI-assisted conditions, and teams using AI were about three times more likely to produce a top-decile solution." width="1774" height="887" loading="lazy" decoding="async">
-  <figcaption>AI improved the quality of generated ideas, while human collaboration retained an edge in selecting the best one. Teams using AI produced the strongest exceptional outcomes.</figcaption>
+  <img src="/images/writing/ai-team-generation-selection.svg" alt="AI raised average idea quality. Human-only teams chose their strongest idea about 50 percent of the time, against roughly 37 percent with AI. Teams using AI were about three times more likely than the control group to reach a top-10 percent solution." width="1800" height="640" loading="lazy" decoding="async">
+  <figcaption>AI raised the quality of the ideas. Human-only teams were better at picking the best one.</figcaption>
 </figure>
 
 The study was about product innovation, not software development, so it doesn’t prove that engineering teams will behave the same way.
@@ -113,8 +113,7 @@ It does offer a useful division of work.
 AI can increase the number and quality of options available to a team, while the team applies the product knowledge, system understanding, and judgment required to select one.
 
 In software work, that can mean using AI to investigate several approaches, trace how each one affects the system, and build enough of a solution to make the trade-offs visible.
-The engineers aren’t waiting for a finished pull request so they can approve it.
-They are using AI while they shape the change and decide what should be built.
+The engineers use AI while they shape the change and decide what should be built, instead of waiting for a finished pull request to approve.
 
 That human capability still has to be developed.
 
@@ -125,7 +124,6 @@ They scored 17 percent lower when tested on the code and concepts they had just 
 The people who delegated the task completely finished fastest and understood the least.
 Developers who asked conceptual questions, requested explanations, or examined the generated code showed better understanding, although the study was too small to prove that those interaction patterns caused the difference.
 
-This is where the multiplier argument matters most for leaders.
 [Jeremy Utley argues](https://www.jeremyutley.com/blog/the-ai-multiplier) that organizations should not reduce investment in human capability while increasing investment in AI.
 The available evidence makes that concern specific for engineering teams: AI can help less-experienced developers complete bounded work sooner, but careless delegation can also remove the debugging, code-reading, and problem-solving experience through which they become experienced developers.
 
@@ -138,9 +136,5 @@ Then introduce AI and compare the complete outcome, including verification and c
 When the result improves, make the working pattern available to the rest of the team.
 When the result does not improve, change the way AI is being used or stop using it for that work.
 As the team builds evidence across more kinds of work, the useful boundary will become clearer.
-
-AI can multiply a team’s ability to explore and execute.
-Whether that extra work can be verified and released safely depends on the team’s engineering practices.
-Deciding which work should exist still takes the judgment of its people.
 
 That’s a better basis for investment than turning licences into imaginary headcount.

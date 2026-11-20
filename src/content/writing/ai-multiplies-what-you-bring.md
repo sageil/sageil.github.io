@@ -10,14 +10,13 @@ An amplifier doesn't make you a better guitarist. It makes you louder. Play well
 
 <figure class="article-visual article-visual-wide">
   <img src="/images/writing/ai-amplifier.svg" alt="A strong foundation passed through AI becomes better work at a scale you could not reach alone. A weak foundation passed through AI becomes mistakes at a pace nobody can catch." width="1800" height="600" loading="lazy" decoding="async">
-  <figcaption>The same tool, two very different results.</figcaption>
 </figure>
 
 ## Strong foundations get stronger
 
 Give a capable engineer a capable model and the work changes shape. They already know what good looks like, so they can ask for it precisely, notice when the answer drifts, and push it back on course. The model does the typing and they do the thinking, so work that took a week becomes an afternoon of directing and reviewing.
 
-The model isn't smarter than they are. What makes the difference is that they can tell when it's wrong.
+They can tell when the model is wrong, and that matters more than how smart the model is.
 
 ## Weak foundations get exposed
 
@@ -37,28 +36,20 @@ Teams that only use AI to finish the same work faster miss this. The ones pullin
 
 ## The gap is widening
 
-Put those together and the result is uncomfortable. People who already performed well, and who learned to work with AI, are pulling away from everyone else. Some industry voices now talk about 20x or even 100x differences between AI-fluent workers and the rest.
+People who already performed well, and who learned to work with AI, are pulling away from everyone else. Claims of 20x or even 100x differences between AI-fluent workers and the rest are easy to find.
 
-I'm wary of numbers that big. The research I trust shows smaller, messier effects that depend heavily on the task, which I wrote about in [AI Is Not Extra Headcount](/writing/ai-is-not-extra-headcount/). But the direction matches what I see on teams. The spread is getting wider.
+I'm wary of numbers that big. The research I trust shows smaller, messier effects that depend heavily on the task, which I wrote about in [AI Is Not Extra Headcount](/writing/ai-is-not-extra-headcount/). But the direction matches what I see on teams.
 
 ## What makes the multiplier work
 
 Three things decide whether AI multiplies you up or down.
 
-### Domain knowledge
+The first is domain knowledge. You can't steer what you can't evaluate. Knowing your industry, your codebase and your customers is what lets you look at a confident answer and say "no, that's not how it works here." It's also what lets you ask the right question in the first place.
 
-You can't steer what you can't evaluate. Knowing your industry, your codebase and your customers is what lets you look at a confident answer and say "no, that's not how it works here." It's also what lets you ask the right question in the first place.
+The second is judgment and agency. AI can generate options all day. It can write the code and draft the document. It can't decide which problem is worth solving, which trade-off the business can live with, or when to stop. Those calls stay with people, and they matter more now that producing options is cheap.
 
-### Judgment and agency
-
-AI can generate options all day. It can write the code and draft the document. It can't decide which problem is worth solving, which trade-off the business can live with, or when to stop. Those calls stay with people, and they matter more now that producing options is cheap.
-
-### Active adaptation
-
-The time AI saves has to go somewhere. If it goes into accepting the first draft and moving on, you've gained speed and lost quality. If it goes into digging deeper, iterating further or taking on a harder problem, the multiplier compounds.
+The third is what you do with the time AI saves. If it goes into accepting the first draft and moving on, you've gained speed and lost quality. If it goes into digging deeper, iterating further or taking on a harder problem, the multiplier works in your favour.
 
 ## What this means for leaders
 
-If AI multiplies what people bring, then what people bring is where the investment should go, more than the licence. Domain knowledge, review skills and the habit of questioning output are worth more now, not less. Hiring for judgment, pairing newer developers with people who know the domain, and keeping feedback loops fast enough to catch mistakes early: none of that is new, but all of it pays more than it used to.
-
-AI won't replace the people on your team. It will show you, faster than anything before it, what they were really bringing.
+If AI multiplies what people bring, then what people bring is where the investment should go, more than the licence. Domain knowledge, review skills and the habit of questioning output are worth more now. Hiring for judgment, pairing newer developers with people who know the domain, and keeping feedback loops fast enough to catch mistakes early aren't new ideas, but they pay more than they used to.
