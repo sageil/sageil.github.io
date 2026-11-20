@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 640" width="1800" height="640">
+<defs><marker id="a-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a6b3a"/></marker><marker id="a-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c4512a"/></marker><marker id="a-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a857c"/></marker></defs>
+<rect width="1800" height="640" fill="#faf7f2"/>
+<text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#1a1a1a">Where AI helped, and where people did better</text>
+<g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<rect x="80" y="190" width="508" height="400" rx="8" fill="none" stroke="#8a857c" stroke-width="2"/>
+<rect x="646" y="190" width="508" height="400" rx="8" fill="none" stroke="#8a857c" stroke-width="2"/>
+<rect x="1212" y="190" width="508" height="400" rx="8" fill="none" stroke="#8a857c" stroke-width="2"/>
+<text x="334" y="250" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="700" letter-spacing="1.5">GENERATING IDEAS</text>
+<text x="334" y="370" font-size="72" fill="#4a6b3a" text-anchor="middle" font-weight="300" letter-spacing="0">Higher</text>
+<text x="334" y="420" font-size="28" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">average idea quality with AI</text>
+<text x="334" y="500" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">individuals and teams</text>
+<text x="900" y="250" font-size="24" fill="#1a1a1a" text-anchor="middle" font-weight="700" letter-spacing="1.5">PICKING THE BEST ONE</text>
+<text x="686" y="310" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">Human-only teams</text>
+<rect x="686" y="328" width="300" height="40" fill="#1a1a1a"/>
+<text x="1000" y="358" font-size="28" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">~50%</text>
+<text x="686" y="430" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="400" letter-spacing="0">With AI</text>
+<rect x="686" y="448" width="222" height="40" fill="#8a857c"/>
+<text x="922" y="478" font-size="28" fill="#8a857c" text-anchor="start" font-weight="400" letter-spacing="0">~37%</text>
+<text x="900" y="560" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">chose their strongest idea</text>
+<text x="1466" y="250" font-size="24" fill="#4a6b3a" text-anchor="middle" font-weight="700" letter-spacing="1.5">BEST OVERALL RESULT</text>
+<text x="1466" y="370" font-size="96" fill="#4a6b3a" text-anchor="middle" font-weight="300" letter-spacing="0">~3×</text>
+<text x="1466" y="420" font-size="26" fill="#4a6b3a" text-anchor="middle" font-weight="400" letter-spacing="0">more likely to reach a top-10% solution</text>
+<text x="1466" y="500" font-size="24" fill="#8a857c" text-anchor="middle" font-weight="400" letter-spacing="0">teams using AI, against the control group</text>
+</g>
+</svg>

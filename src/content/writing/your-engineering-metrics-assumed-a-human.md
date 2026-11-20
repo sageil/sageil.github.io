@@ -12,7 +12,7 @@ What bothers me is how quietly it happens: the metric still computes, the dashbo
 
 ## A team that got faster
 
-Consider this scenario. A team of six runs a payments service. Before they adopted coding agents, a typical month looked like this:
+Take a team of six running a payments service. Before they adopted coding agents, a typical month looked like this:
 
 - 12 deployments, about three a week
 - 4 days from commit to production
@@ -32,7 +32,7 @@ Six months after adopting agents, the same team's month looks like this:
 - 48 story points of velocity
 - 20 minutes, median, from opening a PR to approval
 
-Show the first list to a leadership team and the second one looks like a win. Most of the numbers moved the right way. But one quietly went from 1 to 6, and whether this team is better off depends almost entirely on that number.
+Show the first list to a leadership team and the second one looks like a win. Most of the numbers moved the right way. But one went from 1 to 6, and whether this team is better off depends almost entirely on that number.
 
 ## Which metrics still work
 
@@ -46,12 +46,12 @@ The question I ask of any metric now is simple: does it measure the system, or t
 
 All three describe the pipeline, the gates and the organization. The clock starts at commit, so none of them cares whether a person or a model wrote the code. If anything, they matter more now.
 
-But here's the catch. On these numbers, a faster pipeline and a thinner review look exactly the same. DORA's 2025 research found that AI adoption improves throughput but often costs stability where the foundations aren't solid. That's why DORA has always said not to read throughput alone.
+On these numbers, though, a faster pipeline and a thinner review look exactly the same. DORA's 2025 research found that AI adoption improves throughput but often costs stability where the foundations aren't solid. That's why DORA has always said not to read throughput alone.
 
 **The instability metrics still work too, with a caveat.** DORA tracks two:
 
 - **Change fail rate** is the share of deployments that cause a failure in production. Our team went from 1 in 12, about 8%, to 6 in 40, 15%. The rate nearly doubled. In absolute terms it's worse: six incidents a month instead of one.
-- **Deployment rework rate**, added in 2024, is the share of deployments that were unplanned and happened because of a production incident. If five of those 40 deployments were hotfixes nobody planned, that's 12.5%. A fifth of the team's "faster" output went into cleaning up after itself.
+- **Deployment rework rate**, added in 2024, is the share of deployments that were unplanned and happened because of a production incident. If five of those 40 deployments were hotfixes nobody planned, that's 12.5%, or one deployment in every eight spent cleaning up after the others.
 
 These still measure something real. The caveat is what's feeding them. When the same model writes a change and its tests, logic that's wrong but looks right can pass a test suite that shares the same blind spots. That isn't a new failure mode, but agents make it easy to produce at volume. Your change fail rate can hold steady while the mix of reasons behind it shifts completely.
 
@@ -73,8 +73,8 @@ Three things, and one warning.
 
 The warning: don't turn any of these into targets. Every one of them can be gamed. The metrics they replace failed twice, first when they became targets and again when the assumption underneath them disappeared. Use these when a number moves and you want to know why, not to grade teams.
 
-## The failure I actually worry about
+## The failure I worry about
 
-It isn't a metric that visibly breaks, because somebody notices that. It's a metric that keeps producing believable numbers while it quietly measures something else. Velocity up 60%, PRs merged more than doubled, approvals in twenty minutes instead of three hours. That's a team that got faster. It's also a team building up code nobody has really looked at. On those three numbers alone, you can't tell them apart.
+A metric that visibly breaks gets noticed. The dangerous one keeps producing believable numbers while it measures something else. Velocity up 60%, PRs merged more than doubled, approvals in twenty minutes instead of three hours. That's a team that got faster. It's also a team building up code nobody has really looked at. On those three numbers alone, you can't tell them apart.
 
 More metrics alone won't fix that. What I'd do is go through every number on the wall, ask what it assumed about who was doing the work, retire the ones whose assumption no longer holds, and make sure no speed number goes up without a consequence number next to it. If our payments team had seen 12 deployments become 40 alongside 1 failure becoming 6, the conversation would have been very different.

@@ -46,7 +46,7 @@ def render(name: str, svg: str) -> None:
 
 def main() -> None:
     OUT.mkdir(exist_ok=True)
-    render('default', card('NOTES ON BUILDING, AND LEADING', 'Sammy Ageil', 96))
+    render('default', card('NOTES ON BUILDING AND LEADING', 'Sammy Ageil', 96))
     for essay in sorted(ESSAYS.glob('*.md')):
         title = re.search(r'^title:\s*(.+)$', essay.read_text(), re.M).group(1).strip().strip('"')
         render(essay.stem, card('SAMMY AGEIL · WRITING', title))

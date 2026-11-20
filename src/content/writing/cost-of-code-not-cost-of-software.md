@@ -10,7 +10,7 @@ In 1998 Walker Royce summed up software economics in a single equation. It multi
 
 That exponent is usually greater than one. Software has a diseconomy of scale: double the size and you more than double the effort, because every new piece has to fit with every piece already there.
 
-It's a useful lens for AI, because it shows which parts of the cost AI actually touches, and which parts it doesn't.
+Each term in the equation shows a different part of the cost, and AI moves some of them and leaves others alone.
 
 ## Three generations of writing less code
 
@@ -24,20 +24,18 @@ In the modern era the ratio flipped. Open source, frameworks, cloud services and
 
 <figure class="article-visual article-visual-wide">
   <img src="/images/writing/software-generations.svg" alt="Royce's three generations: conventional software was 100 percent custom code, the transition era about 70 percent custom and 30 percent components, and the modern era about 30 percent custom and 70 percent components. A fourth column for the AI era notes that custom code is now cheap to write and asks whether it is cheap to own." width="1800" height="670" loading="lazy" decoding="async">
-  <figcaption>Every gain came from writing less custom code. AI makes custom code cheap to write again.</figcaption>
+  <figcaption>The fourth column asks whether custom code that is cheap to write is also cheap to own.</figcaption>
 </figure>
 
-Each improvement came from writing less custom code, not from writing it faster. The biggest lever on the size term was never writing the code in the first place.
+Each improvement came from writing less custom code. The biggest lever on the size term was avoiding writing the code at all.
 
 ## AI pulls the size lever the other way
 
-AI changes this in an odd direction. It makes custom code nearly free to produce. Need a parser, a client, a migration script? Ask for one. The pressure to reuse, to reach for a library, to keep the system small, quietly weakens.
+AI makes custom code nearly free to produce. Need a parser, a client, a migration script? Ask for one. The pressure to reuse, to reach for a library, to keep the system small, quietly weakens.
 
 But the exponent applies to size no matter who wrote the code. A system that grows because generating code is cheap still has to be understood, integrated, tested, secured and maintained. The diseconomy of scale comes from coordination, from every new piece interacting with every old one, and typing had little to do with it. AI doesn't remove that. If anything, it lets teams reach the expensive end of the curve faster.
 
 ## Term by term
-
-Going through the equation makes the picture clearer.
 
 **Personnel.** Smaller teams produce far more than they used to. Royce already argued that a balanced team of capable people beats a large one, and AI strengthens that argument. As I wrote in [AI Multiplies What You Bring](/writing/ai-multiplies-what-you-bring/), it scales whatever the team brings, good and bad.
 
@@ -51,7 +49,6 @@ Going through the equation makes the picture clearer.
 
 <figure class="article-visual article-visual-wide">
   <img src="/images/writing/effort-equation.svg" alt="Royce's equation, Effort equals Personnel times Environment times Quality times Size to the power of Process. AI helps personnel and environment, adds risk to quality, and pushes size up. The process exponent decides the outcome." width="1800" height="600" loading="lazy" decoding="async">
-  <figcaption>AI improves some terms and worsens others. The process exponent decides which wins.</figcaption>
 </figure>
 
 ## A new line on the budget
@@ -72,6 +69,4 @@ Royce listed five ways to improve software economics. All five still hold. AI ju
 
 ## Cheap code, expensive software
 
-Every generation in Royce's model got cheaper by writing less code. AI is the first to make writing the code itself cheap, which is new. But writing was never most of the cost. Understanding, integrating and owning the code was, and AI hasn't made any of that much cheaper yet.
-
-Writing the wrong feature faster still wastes money. It just wastes it sooner.
+AI is the first shift since Royce's model that makes writing the code itself cheap. But writing was never most of the cost. Understanding, integrating and owning the code was, and AI hasn't made any of that much cheaper yet.

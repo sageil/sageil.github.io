@@ -21,11 +21,11 @@ I’ve never used `git log` and `git reflog` so much in my career.
 The agents were working in parallel, but I was bouncing between them and trying to keep the whole change in my head.
 
 <figure class="article-visual article-visual-wide">
-  <img src="/images/writing/five-agents-one-human.png" alt="Five repository agents converge on one human coordinator, who must track changes, resolve conflicts, make decisions, retain context, and carry the load." width="1883" height="835" loading="eager" decoding="async">
+  <img src="/images/writing/five-agents-one-human.svg" alt="Five agents, one in each repository, all report to one person, who is the only one who sees all five and has to carry which agent owns what, earlier decisions, where one repository breaks another, and what to integrate." width="1800" height="720" loading="eager" decoding="async">
   <figcaption>Parallel execution moved the bottleneck from the repositories to the person coordinating them.</figcaption>
 </figure>
 
-## Parallel is not the problem
+## Who tracks eleven agents?
 
 Around the same time, I found a LinkedIn article by someone who had processed 40.81 billion tokens with Claude and Codex in ten working days.
 The number that stayed with me wasn’t 40 billion.
@@ -67,14 +67,12 @@ A traditional Saga can run an automated compensation when one participant fails.
 Agent work is nondeterministic, so I left compensation out.
 Changes remain isolated until I approve them, and nothing is pushed automatically.
 
-## Measure value, not activity
+## What I measure
 
 I can limit how many agents run in parallel, choose their models and reasoning effort, and control retries.
 Those settings tell me how the work is running, but not whether it is useful.
 
 The number I care about is the cost of producing one reviewed and integrated feature.
 That includes Codex usage, coordinator overhead, human review, failed attempts, and rework.
-Agent count and token volume are interesting, but they do not tell me whether the work was worth doing.
 
 I built RepoChord so I could stay focused while several agents worked across the system.
-The agents can work in parallel without making the developer track every session or keep the entire change in their head.
